@@ -1,0 +1,23 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+env:
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: get the latest stable manifest
+        run: |
+          export GHCR_TOKEN=$(echo $GH_TOKEN | base64)
+          curl -H "Authorization: Bearer $GHCR_TOKEN" https://ghcr.io/v2/home-assistant/home-assistant/manifests/stable | python -m json.tool > stable.json
+      - name: stage changed files
+        run: git add .
+      - name: commit changed files
+        run: git commit -m "updated stable manifest"
+      - name: push code to master
+        run: git push
