@@ -5,7 +5,7 @@
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "size": 7223,
-            "digest": "sha256:f0d0b48d8fed69a9941784633597d54551a851d2d0973efe884ba5c0173424ba",
+            "digest": "sha256:fed30717f6e8748c87116cfa263f2da62195e8156a47b07262f4021b1a6f4573",
             "platform": {
                 "architecture": "arm64",
                 "os": "linux",
@@ -15,7 +15,7 @@
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "size": 7223,
-            "digest": "sha256:6e51228b856bf0c77d4888edcac2e16b6fa7bbf253cf77c79f998cde08b4480d",
+            "digest": "sha256:fda37da4d9473d9545d4a57406678cd9d206f8f6a426fbf72c22a051f4181005",
             "platform": {
                 "architecture": "amd64",
                 "os": "linux"
@@ -24,7 +24,7 @@
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "size": 7223,
-            "digest": "sha256:ea23de6980dc73329feffb9e1106c483ccc6485870611919ca086d0e49b91be0",
+            "digest": "sha256:95c4b014a1d365b4d0a88401c03de675bcd60e01d03c3d6cbf86cd77dcb4e68a",
             "platform": {
                 "architecture": "arm",
                 "os": "linux",
@@ -34,7 +34,7 @@
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "size": 7223,
-            "digest": "sha256:40e851afa8f7c8aa15f5188e995926dfaa709daddde42c42e4173f62f7e3259d",
+            "digest": "sha256:c0a398d6203b398fe067346e4e6e555fa0c22ecc26a246718c87ba0ddc61c4ae",
             "platform": {
                 "architecture": "arm",
                 "os": "linux",
@@ -44,7 +44,7 @@
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "size": 7223,
-            "digest": "sha256:ffe4f13a73ab52f8a971e0612c3b09ab54c760582c6b3b327b2ce500722ae221",
+            "digest": "sha256:55bad5b6986dce43e4e10d6f5326f7e58f17a7bed886c3f74e9866635aa5ce9c",
             "platform": {
                 "architecture": "386",
                 "os": "linux"
