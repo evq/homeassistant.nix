@@ -4,8 +4,8 @@
     "manifests": [
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-            "size": 7223,
-            "digest": "sha256:5668be0af00f571a343047f9a1f869cecdd91df1c0cf990bf566fa6b12a0a929",
+            "size": 6393,
+            "digest": "sha256:0bb3af282b1fa63f0d80d102b7fc638f1b51dab47e7917648e4618c9bf9eacd2",
             "platform": {
                 "architecture": "arm64",
                 "os": "linux",
@@ -14,8 +14,8 @@
         },
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-            "size": 7223,
-            "digest": "sha256:3476d747306906d514934ad4cfe5c5f7ffaa69c55c51a36090b34bf5dc9ee46a",
+            "size": 6393,
+            "digest": "sha256:abae1429f22b8a2881af8ff00eaa082db88edcbc786201a6f6e031c75d1f452c",
             "platform": {
                 "architecture": "amd64",
                 "os": "linux"
@@ -23,8 +23,8 @@
         },
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-            "size": 7223,
-            "digest": "sha256:48e32562897d30dc747b951178e8bb364ec85be4225b4bd50b9b044cb356d77a",
+            "size": 6393,
+            "digest": "sha256:41e22f1d4cf7af55d017f98f1cb1013ade3516d71ff88d136b264284bb1d507c",
             "platform": {
                 "architecture": "arm",
                 "os": "linux",
@@ -33,8 +33,8 @@
         },
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-            "size": 7223,
-            "digest": "sha256:db341bd809153048c1cc696e7695f4be69ab1301b6235192f971db238ff2d126",
+            "size": 6393,
+            "digest": "sha256:9da1750fd63022ce8f756c9e1755ac7356ef0867d1568ea8a42fab790d08bcfb",
             "platform": {
                 "architecture": "arm",
                 "os": "linux",
@@ -43,8 +43,8 @@
         },
         {
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-            "size": 7223,
-            "digest": "sha256:82185230dbe96bc9442793ce0c4b556222172f7d3165dd8cb630e40f2e718f51",
+            "size": 6393,
+            "digest": "sha256:4d1b9cfd0140a6285ff91292eaac4874a8c9a787268d7a4bff36263e780df944",
             "platform": {
                 "architecture": "386",
                 "os": "linux"
