@@ -1,8 +1,50 @@
 {
-    "errors": [
+    "schemaVersion": 2,
+    "mediaType": "application/vnd.oci.image.index.v1+json",
+    "manifests": [
         {
-            "code": "MANIFEST_UNKNOWN",
-            "message": "OCI index found, but Accept header does not support OCI indexes"
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:ae873820a82c97af7e054af7942e808182c5c78a9eedcdd2a6b8e170fa3d75a2",
+            "size": 5437,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        },
+        {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:4bdb1f5736dedd154ef8ce913069686e0ae7c82d58ea99ab9f9acdcf72488f46",
+            "size": 567,
+            "annotations": {
+                "vnd.docker.reference.digest": "sha256:ae873820a82c97af7e054af7942e808182c5c78a9eedcdd2a6b8e170fa3d75a2",
+                "vnd.docker.reference.type": "attestation-manifest"
+            },
+            "platform": {
+                "architecture": "unknown",
+                "os": "unknown"
+            }
+        },
+        {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:68ce55ec3570538306475872bc0df9510c7a468c713642f5d2a11a2a4479fac8",
+            "size": 5437,
+            "platform": {
+                "architecture": "arm64",
+                "os": "linux"
+            }
+        },
+        {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:631fc2cd60a453c72da79483a58bade607dbddaf496c3062da3cc8f3799b3a8f",
+            "size": 567,
+            "annotations": {
+                "vnd.docker.reference.digest": "sha256:68ce55ec3570538306475872bc0df9510c7a468c713642f5d2a11a2a4479fac8",
+                "vnd.docker.reference.type": "attestation-manifest"
+            },
+            "platform": {
+                "architecture": "unknown",
+                "os": "unknown"
+            }
         }
     ]
 }
