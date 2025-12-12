@@ -14,7 +14,7 @@ jobs:
       - name: get the latest stable manifest
         run: |
           export GHCR_TOKEN=$(echo $GH_TOKEN | base64)
-          curl -H "Authorization: Bearer $GHCR_TOKEN" https://ghcr.io/v2/home-assistant/home-assistant/manifests/stable | python -m json.tool > stable.json
+          curl -H "Authorization: Bearer $GHCR_TOKEN" -H 'Accept: application/vnd.oci.image.index.v1+json' https://ghcr.io/v2/home-assistant/home-assistant/manifests/stable | python -m json.tool > stable.json
       - name: set github user name
         run: git config user.name "GitHub Actions [Bot]"
       - name: set github user email
