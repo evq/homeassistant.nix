@@ -3,18 +3,17 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
-env:
-  GH_TOKEN: ${{ github.token }}
-
 jobs:
   process:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: get the latest stable manifest
-        run: |
-          export GHCR_TOKEN=$(echo $GH_TOKEN | base64)
-          curl -H "Authorization: Bearer $GHCR_TOKEN" -H 'Accept: application/vnd.oci.image.index.v1+json' https://ghcr.io/v2/home-assistant/home-assistant/manifests/stable | python -m json.tool > stable.json
+        # docker buildx authenticates to ghcr.io via the GITHUB_TOKEN env
+        # var automatically. the plain curl approach broke when ghcr started
+        # resetting http/2 streams ( curl 43, see github community
+        # discussion 196959 ).
+        run: docker buildx imagetools inspect --raw ghcr.io/home-assistant/home-assistant:stable | python -m json.tool > stable.json
       - name: set github user name
         run: git config user.name "GitHub Actions [Bot]"
       - name: set github user email
