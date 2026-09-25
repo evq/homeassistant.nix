@@ -4,7 +4,7 @@
     "manifests": [
         {
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
-            "digest": "sha256:542890f4a7ef9269b7a5ac23ada303b327537c62fa0f866e49daebc61cb44caa",
+            "digest": "sha256:1aeeebfba2a977182dfc60495ebf24460ac8f0710cac34d86e83aaad53ee4892",
             "size": 4488,
             "platform": {
                 "architecture": "amd64",
@@ -13,10 +13,10 @@
         },
         {
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
-            "digest": "sha256:f99184d83906ef69e2824a9b5d66ebdb205962a52ec9a5ef7bb4c0e9dd98cca8",
+            "digest": "sha256:a1b565135491ca1cedbe507c14bb99d03b2ad21cd7b8420286b482cde46bcd2e",
             "size": 838,
             "annotations": {
-                "vnd.docker.reference.digest": "sha256:542890f4a7ef9269b7a5ac23ada303b327537c62fa0f866e49daebc61cb44caa",
+                "vnd.docker.reference.digest": "sha256:1aeeebfba2a977182dfc60495ebf24460ac8f0710cac34d86e83aaad53ee4892",
                 "vnd.docker.reference.type": "attestation-manifest"
             },
             "platform": {
@@ -26,7 +26,7 @@
         },
         {
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
-            "digest": "sha256:624e1d662d7668e047a9405e1a5d25fa9b158b813e6fe5073348d82a563bc691",
+            "digest": "sha256:efdb6f91e54a596859ae5499b5681867796b9c46c44354dffec345429ac942a7",
             "size": 4488,
             "platform": {
                 "architecture": "arm64",
@@ -35,10 +35,10 @@
         },
         {
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
-            "digest": "sha256:3e544e21c6a501f967660e962150435380efd9b73b7f57b9aff56ad664b04144",
+            "digest": "sha256:55fc3bf6cb3a28fce7b2097e8cce6636c48f5ad04194ffbf576e72a39cc74e89",
             "size": 838,
             "annotations": {
-                "vnd.docker.reference.digest": "sha256:624e1d662d7668e047a9405e1a5d25fa9b158b813e6fe5073348d82a563bc691",
+                "vnd.docker.reference.digest": "sha256:efdb6f91e54a596859ae5499b5681867796b9c46c44354dffec345429ac942a7",
                 "vnd.docker.reference.type": "attestation-manifest"
             },
             "platform": {
